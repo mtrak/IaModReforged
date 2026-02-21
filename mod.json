@@ -1,0 +1,18 @@
+{
+  "id": "reforger-ai-gamemaster",
+  "version": "1.0.0",
+  "name": "ReforgerAI — Control IA Tiempo Real",
+  "description": "Integra un LLM (Ollama) para controlar enemigos, misiones y tácticas en tiempo real vía Game Master. Compatible con single y multiplayer.",
+  "author": "TuNombre",
+  "gameVersion": "1.1.0",
+  "dependencies": [],
+  "scripts": [
+    "Scripts/Game/ReforgerAI/AIBridge.c",
+    "Scripts/Game/ReforgerAI/AIEventDispatcher.c",
+    "Scripts/Game/ReforgerAI/AICommandReceiver.c",
+    "Scripts/Game/ReforgerAI/AIGroupController.c",
+    "Scripts/Game/ReforgerAI/AIMissionManager.c",
+    "Scripts/Game/ReforgerAI/AIGameMasterHelper.c"
+  ],
+  "tags": ["gameplay", "ai", "game-master", "multiplayer"]
+}
